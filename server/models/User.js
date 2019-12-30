@@ -6,9 +6,9 @@ const UserSchema = new Schema({
   lastName: { type: String, required: true },
   email: { type: String, required: true },
   social: {
-    facebook: { type: String, require: false },
-    twitter: { type: String, require: false },
-    linkedIn: { type: String, require: false }
+    facebook: { type: String, required: false },
+    twitter: { type: String, required: false },
+    linkedIn: { type: String, required: false }
   }
 });
 
