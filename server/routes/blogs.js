@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User');
+const Blog = require('../models/Blog');
 
 router.get('/', (req, res) => {
-  User
+  Blog
     .find()
-    .then(user => {
-      res.status(200).json(users);
+    .then(blog => {
+      res.status(200).json(blogs);
     });
 });
 
